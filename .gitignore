@@ -1,0 +1,11 @@
+#####CORPUS
+data/
+
+
+### WEB libaries
+web/bin/
+web/include/
+web/lib/
+web/app/static/
+*.pyc
+*.py

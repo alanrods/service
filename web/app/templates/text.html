@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form action="/text" method="post">
+  <div class="field">
+    <label class="label">Input your text please!</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Ironic Text" name='tweet_text'>
+    </div>
+  </div>
+ <div class="field">
+    <div class="control">
+      <button class="button is-primary" type='submit' value='Submit'>Submit</button>
+    </div>
+  </div>
+</form>
+{%endblock%}
