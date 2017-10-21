@@ -8,3 +8,6 @@ web/include/
 web/lib/
 #**/static/
 *.pyc
+
+##Jupyter
+.ipynb_checkpoints 
